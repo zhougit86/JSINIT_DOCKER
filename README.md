@@ -21,8 +21,8 @@
 
 整个docker的项目主要是由以下几个文件定义的：
 * docker-compose.yaml
-
- version: '2'
+```
+version: '2'
  services:
    jsinit:
      build:
@@ -42,5 +42,5 @@
        NEED_INIT: T
        NEED_RUN: T
        UPSTREAM : https://github.com/zhougit86/antd-admin
-
+```
 更多可以参考http://www.cnblogs.com/freefei/p/5311294.html
