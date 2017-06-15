@@ -4,7 +4,7 @@
 ## 安装docker和docker-compose
 
 ### 安装docker
-***
+
 * echo " deb https://apt.dockerproject.org/repo ubuntu-xenial main" | sudo tee /etc/apt/sources.list.d/docker.list
 * apt-get update
 * apt-cache policy docker-engine
@@ -17,10 +17,11 @@
 * curl -L "https://github.com/docker/compose/releases/download/1.9.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 * chmod +x /usr/local/bin/docker-compose
 
-## 文件结构
+### 文件结构
+
 整个docker的项目主要是由以下几个文件定义的：
 * docker-compose.yaml
-***
+
  version: '2'
  services:
    jsinit:
