@@ -11,13 +11,9 @@ else
 fi
 
 if [[ "$NEED_INIT"X = "T"X ]];then
+    echo "begin install node packages"
     cd $LOCALDIR&&cnpm install
 fi
-#top
-#while true;
-#sleep 1000;
-#done
 
-#tailf ~/loop
 /usr/bin/supervisord -c /etc/supervisord.conf
 
