@@ -1,0 +1,1 @@
+docker exec -ti sds-horizon /bin/bash -c "run_horizon.sh"

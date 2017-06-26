@@ -1,0 +1,21 @@
+version: '2'
+services:
+  jsinit:
+    build:
+      context: .
+      dockerfile: dockers/jsinit/Dockerfile
+    image: jsinit
+    container_name: jsinit
+    hostname: dev
+    ports:
+    - "2208:22"
+    - "3008:3000"
+    - "4008:4000"
+    - "8008:8000"
+    volumes:
+    - ./workspace:/workspace
+    environment:
+      NEED_INIT: T
+      NEED_RUN: T
+      UPSTREAM : https://github.com/zhougit86/antd-admin
+       

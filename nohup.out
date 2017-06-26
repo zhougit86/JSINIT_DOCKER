@@ -1,0 +1,18 @@
+Recreating jsinit
+Attaching to jsinit
+[36mjsinit    |[0m /opt/thinkcloud
+[36mjsinit    |[0m 2017-06-26 12:41:56,334 CRIT Supervisor running as root (no user in config file)
+[36mjsinit    |[0m 2017-06-26 12:41:56,348 INFO supervisord started with pid 7
+[36mjsinit    |[0m 2017-06-26 12:41:57,351 INFO spawned: 'sshd' with pid 10
+[36mjsinit    |[0m 2017-06-26 12:41:58,588 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+Stopping jsinit ... 
+Killing jsinit ... 
+Aborting.
+Gracefully stopping... (press Ctrl+C again to force)
+Starting jsinit
+Attaching to jsinit
+[36mjsinit    |[0m /opt/thinkcloud
+[36mjsinit    |[0m 2017-06-26 12:42:07,196 CRIT Supervisor running as root (no user in config file)
+[36mjsinit    |[0m 2017-06-26 12:42:07,198 INFO supervisord started with pid 7
+[36mjsinit    |[0m 2017-06-26 12:42:08,201 INFO spawned: 'sshd' with pid 10
+[36mjsinit    |[0m 2017-06-26 12:42:09,213 INFO success: sshd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
